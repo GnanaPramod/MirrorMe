@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom color variables */
+:root {
+  --primary-light: #3B7097;
+  --primary-medium: #75BDEO;
+  --primary-dark: #A9DO9E;
+  --accent: #F6E2BC;
+}
+
+/* Dark mode color variables */
+.dark {
+  --primary-light: #3B7097;
+  --primary-medium: #75BDEO;
+  --primary-dark: #A9DO9E;
+  --accent: #F6E2BC;
+}
